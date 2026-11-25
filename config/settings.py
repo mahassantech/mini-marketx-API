@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'categories',
     'products',
 ]
+AUTH_USER_MODEL = 'accounts.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
